@@ -1,0 +1,33 @@
+.contactForm {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contactForm input, .contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .contactForm button {
+    padding: 10px 20px;
+  }
+  
+  .successMessage {
+    color: green;
+  }
+  
+  @media (max-width: 700px) {
+    .contactForm {
+      padding: 10px;
+    }
+  
+    .contactForm input, .contactForm textarea {
+      padding: 8px;
+      margin: 8px 0;
+    }
+  
+    .contactForm button {
+      padding: 8px 16px;
+    }
+  }
