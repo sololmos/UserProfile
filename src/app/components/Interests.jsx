@@ -3,7 +3,7 @@ import styles from '../styles/Interests.module.css';
 const Interests = () => {
   return (
     <section className={styles.interests}>
-      <h2>Tengo interes en... </h2>
+      <h2 className={styles.title}>Tengo interes en... </h2>
       <ul>
         <li>Desarrollo Frontend</li>
         <li>Diseño UX/UI</li>
